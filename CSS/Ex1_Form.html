@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Ex1_Style_Form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Webpage with Ordered List and Form</title>
+</head>
+
+<body>
+
+    <section>
+        <h1 class="required">Steps to Complete the Form</h1>
+        <ol>
+            <li>Въведи името си</li>
+            <li>Въведи имейла си</li>
+            <li>Въведи годините си</li>
+            <li>Въведи паролата си</li>
+            <li>Избери предпочитания</li>
+            <li>Посети някой от линковете</li>
+            <li>Изпрати формата</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2 class="required">Personal Information Form</h2>
+        <form action="/submit" method="POST">
+
+            <label for="name" class="required">Име:</label><br>
+            <input placeholder="Име" type="text" id="name" name="name" required><br>
+
+            <label lang="bg" for="last-name" class="required">Фамилия:</label><br>
+            <input type="text" id="last-name" name="last-name" data-info="example" required><br>
+
+            <label for="email" class="required">Имейл:</label><br>
+            <input type="email" id="email" name="email" class="special" required><br>
+
+            <label for="age">Години:</label><br>
+            <input type="number" id="age" name="age" min="1"><br>
+
+            <label for="password" class="required">Парола:</label><br>
+            <input type="password" id="password" name="password" required><br>
+
+
+            <label for="phoneNumber">Телефонен номер:</label><br>
+            <input type="tel" id="phoneNumber" name="phoneNumber" disabled><br>
+
+            <label for="preferences">Предпочитания:</label><br>
+            <select id="preferences" name="preferences">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select><br><br>
+            <a href="/блаблаб">Линк</a><br>
+            <a href="">Посетен Линк</a><br>
+            <a href="https://google.com">Линк започващ с https</a><br>
+            <a href="random.pdf">Линк завършващ на pdf</a><br>
+            <a href="mailto:example@blab.com">Линк съдържащ example</a><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+ol,form{
+    border: 2px solid green;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+li{
+    margin-left: 30px;
+}
+
+li:nth-child(2){
+    color: blue;
+}
+
+li:nth-child(6), a:nth-child(5){
+    text-decoration: underline;
+}
+
+li:nth-child(7), a:nth-child(4){
+    font-style: italic;
+}
+
+li:hover{
+    background-color: aqua;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+li:nth-child(odd)::marker{
+    color:red;
+}
+
+li:first-child::marker{
+    color: blue;
+}
+
+li:last-child::marker{
+    color:purple;
+}
+
+
+
+li:nth-child(even)::marker {
+    color: green;
+}
+
+h2.required{
+    color: blue;
+}
+
+label.required:after{
+    content: "*";
+    color: red;
+}
+
+label[for="last-name"]{
+    background-color: aquamarine;
+}
+
+#last-name{
+    background-color: rgb(245, 255, 196);
+    color: aquamarine;
+}
+
+#name{
+    background-color: blue;
+    color: rgb(242, 41, 249);
+}
+
+#name::placeholder{
+    color: rgb(242, 41, 249);
+}
+
+input{
+    border: solid red;
+}
+
+#age{
+    border: 2px solid green;
+
+}
+
+#phoneNumber{
+    background-color: rgb(208, 207, 207);
+    border: 2px solid green;
+    margin-bottom: 20px;
+    cursor: not-allowed;
+}
+
+
+
+a{
+    color: green;
+    text-decoration: none;
+}
+
+a[href=""]{
+    color: red;
+}
+
+a[href="https://google.com"]:hover{
+    color: rgb(133, 1, 1);
+    font-weight: bold;
+}
+
+a[href="random.pdf"]{
+    font-style: italic;
+}
+
+a[href="mailto:example@blab.com"]{
+    text-decoration: underline;
+}
+
+button[type="submit"]{
+    margin-top: 10px;
+    border: 2px solid green;
+    border-radius: 25px;
+    padding: 2px;
+    background-color: green;
+    color: white;
+}

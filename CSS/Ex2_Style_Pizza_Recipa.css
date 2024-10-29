@@ -1,0 +1,218 @@
+body{
+    background-color: #e3eafc;
+    padding-bottom: 20px;
+}
+
+.recipe-container{ 
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 410px;
+    margin-right: 480px;
+    background-color: #f4faff;
+    padding-left: 300px;
+    padding-bottom: 20px;
+
+    border-radius: 15px;
+    border:  0.1px #cdd5e1 solid;
+}
+
+.recipe-image{
+    width: 615px;
+    margin-top: 20px;
+    margin-left: -285px;
+    margin-right: 255px;
+    border-radius: 15px;
+    border: 0.1px #cdd5e1 solid;
+}
+
+h1{
+    width: 586px;
+    margin-left: -220px;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    color: #3a4a67;
+}
+
+p{
+    width: 590px;
+    padding: 4px;
+    margin-top: -10px;
+    margin-left: -280px;
+    margin-right: 255px;
+    text-align: center;
+
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: #596278;
+}
+
+.prep-time{
+    width: 320px;
+    margin-top: 20px;
+    margin-left: -285px;
+    padding-bottom: 5px;
+
+    
+    background-color: #f3f0fc;
+    padding-left: 300px;
+
+    border-radius: 15px;
+    border: 0.1px #cdd5e1 solid;
+}
+
+h2{
+    width: 175px;
+    padding: 5px;
+    margin-left: -270px;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    background-color: #e0f7f9;
+    color: #296773;
+
+    border-radius: 5px;
+    border: 0.1px #cdd5e1 solid;
+}
+
+.prep-time ul{
+    width: 400px;
+    padding-top: 0px;
+   
+    margin-left: -300px;
+    list-style-type: none;  
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: #596278;
+}
+
+.prep-time li{
+    padding: 7px;
+}
+
+.ingredients{
+    width: 320px;
+    margin-top: 20px;
+    margin-left: -285px;
+    padding-bottom: 5px;
+    
+    background-color: #f3f0fc;
+    padding-left: 300px;
+
+    border-radius: 15px;
+    border: 0.1px #cdd5e1 solid;
+}
+
+.ingredients h2{
+    width: 120px;
+}
+
+.ingredients ul{
+    width: 400px;
+    padding-top: 0px;
+    list-style-type: none;
+    margin-left: -300px;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: #596278;
+}
+
+.ingredients li::before{
+    content: "•";
+    padding-right: 5px;
+    margin-left: -10px;
+}
+
+.ingredients li{
+    padding: 7px;
+}
+
+.instructions{
+    width: 320px;
+    margin-top: 20px;
+    margin-left: -285px;
+    padding-bottom: 5px;
+    
+    background-color: #f3f0fc;
+    padding-left: 300px;
+
+    border-radius: 15px;
+    border: 0.1px #cdd5e1 solid;
+}
+
+.instructions h2{
+    width: 130px;
+}
+
+.instructions ol{
+    width: 520px;
+    padding-top: 0px;
+    margin-left: -300px;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: #596278;
+}
+
+.instructions li{
+    padding: 7px;
+}
+
+.nutrition{
+    width: 320px;
+    margin-top: 20px;
+    margin-left: -285px;
+    padding-bottom: 20px;
+    
+    background-color: #f3f0fc;
+    padding-left: 300px;
+
+    border-radius: 15px;
+    border: 0.1px #cdd5e1 solid;
+}
+
+.nutrition h2{
+    width: 100px;
+
+    margin-left: -55px;
+}
+
+.nutrition p{
+    font-size: 17px;
+    margin-left: -290px;    
+}
+
+.nutrition table{
+    width: 600px;
+
+    border: 0.1px #cdd5e1 solid;
+    border-collapse: collapse; 
+    font-size: 17px;
+    
+    margin-left: -290px;  
+}
+    
+.nutrition th{
+    color: #3a4a67;
+    background-color: #e0f7f9;
+    border: 0.1px #cdd5e1 dashed;
+    padding: 7px;
+    
+}
+
+.nutrition td{
+    border: 0.1px #cdd5e1 dashed;
+    padding: 7px;
+    padding-left: 59px;
+
+    color: #596278;
+}
